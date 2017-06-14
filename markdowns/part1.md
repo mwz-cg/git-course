@@ -1,19 +1,38 @@
 # Git Without Terror
 
-bla bla
+TODO: use image with man pages for git?
+TODO: set config so we can commit (global or not?)
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+TODO: what about editor?
 
 ## Tags are immutable
 
 Create a tag with:
 
 ```
-git tag v1.0.0
+git tag -a v1.0.0 -m "Version 1"
 ```
 
-Pouette
+The -a option creates an *annotated* tag with additional information including an author, a message specified by the -m option, and a date.
+
 @[Create a git tag]({"command":"/bin/bash /project/target/scripts/validate-tag-create.sh"})
 
+To push that tag to the origin:
+
+```
+git push origin v1.0.0
+```
+
 ## Rebase safely
+
+Note: git is immutable. Soft reset to an earlier commit, commit, and when you look in your history with git log you don't see the old commits anymore.
+All the data is still here, however. Use git reflog to see it. 
+
+Note: git collects unused data with `git gc`
+Question: what happens if you run `git gc`? Can you still access old data?
 
 ## Reset in depth
 
