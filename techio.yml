@@ -6,4 +6,4 @@ plan:
 projects:
   webconsole:
     root: data
-    runner: indiehosters/git:latest
+    runner: samueldebruyn/debian-git:latest
