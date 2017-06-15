@@ -34,15 +34,22 @@ What happened? Git complains that `tag 'v1.0.0' already exists`. There are sever
 
 TODO: how to show that?
 
-## Rebase safely
+## Manipulate history
 
-Note: git is immutable. Soft reset to an earlier commit, commit, and when you look in your history with git log you don't see the old commits anymore.
-All the data is still here, however. Use git reflog to see it. 
+### Rebase safely
 
-Note: git collects unused data with `git gc`
-Question: what happens if you run `git gc`? Can you still access old data?
+TODO: repo with master and new-feature
 
-## Reset in depth
+checkout new-feature
+rebase master
+
+Note: git is immutable. Even if you don't see the old commits anymore in the history with git log, all the data is still here. You can verify that by checking out a previous commit such as b5098234.
+
+git checkout b5098234
+
+Remembering a commit id is not very user-friendly, instead you may want to branch before rebasing.
+
+### Reset in depth
 
 ## Stash in action
 
