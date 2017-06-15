@@ -13,3 +13,4 @@ ba5f2c9b944999d1e1bd099a7a7a0d2a1f09c755 27b8bfe45464dfc5e201c4975c810c5c4dbcaa9
 834e92c7a29dc9fc6e591e61e874f2b5f4736d9a 0f016b81ef010175feb3308995fa957768111b8a Matthieu Wipliez <matthieu@codingame.com> 1497520251 +0200	commit: remove lapin
 0f016b81ef010175feb3308995fa957768111b8a 19331b8d505b64361c404674162fda0dde99865c Matthieu Wipliez <matthieu@codingame.com> 1497520285 +0200	commit: add something awesome
 19331b8d505b64361c404674162fda0dde99865c 834e92c7a29dc9fc6e591e61e874f2b5f4736d9a Matthieu Wipliez <matthieu@codingame.com> 1497520297 +0200	checkout: moving from new-feature to master
+834e92c7a29dc9fc6e591e61e874f2b5f4736d9a f468354235a274ccb3860222ccc00e22f87c41d9 Matthieu Wipliez <matthieu@codingame.com> 1497521260 +0200	commit: add master feature
