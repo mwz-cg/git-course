@@ -1,13 +1,5 @@
 # Git Without Terror
 
-
-TODO: use image with man pages for git?
-TODO: set config so we can commit (global or not?)
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-TODO: what about editor?
 TODO: should we have Alice and Bob repositories?
 
 ## Use immutable tags
