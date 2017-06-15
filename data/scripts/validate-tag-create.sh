@@ -12,7 +12,7 @@ function checkTagExists {
     sleep 0.1
   done 
 }
-echo "TECHIO> terminal -i 'cd repositories/unique-tag/; mv .gitexample .git'"
+echo "TECHIO> terminal -i 'cd repositories/git-course-tag-create'"
 
 cd repositories/unique-tag
 checkTagExists

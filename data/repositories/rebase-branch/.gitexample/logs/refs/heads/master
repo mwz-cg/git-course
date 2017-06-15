@@ -1,6 +1,0 @@
-0000000000000000000000000000000000000000 fb4d7ad487fcbdd897b03b0c905a70b9a7473730 Matthieu Wipliez <matthieu@codingame.com> 1497448808 +0200	commit (initial): add me
-fb4d7ad487fcbdd897b03b0c905a70b9a7473730 2c2b67b1356af0caa86ce8df184769582c1bdcc8 Matthieu Wipliez <matthieu@codingame.com> 1497449239 +0200	commit: add you too
-2c2b67b1356af0caa86ce8df184769582c1bdcc8 b0e262ef0ee30a087daedd442a94350c67a920ca Matthieu Wipliez <matthieu@codingame.com> 1497449515 +0200	commit: test
-b0e262ef0ee30a087daedd442a94350c67a920ca a754ed5dd36fd26d41ba297badf21eba885613a2 Matthieu Wipliez <matthieu@codingame.com> 1497450904 +0200	commit: renamed .toto to .gitexample
-a754ed5dd36fd26d41ba297badf21eba885613a2 834e92c7a29dc9fc6e591e61e874f2b5f4736d9a Matthieu Wipliez <matthieu@codingame.com> 1497451053 +0200	rebase -i (finish): refs/heads/master onto 4dd86c9bf5dda8f98434194a77a3be9a2fc97376
-834e92c7a29dc9fc6e591e61e874f2b5f4736d9a f468354235a274ccb3860222ccc00e22f87c41d9 Matthieu Wipliez <matthieu@codingame.com> 1497521260 +0200	commit: add master feature

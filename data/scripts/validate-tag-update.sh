@@ -11,7 +11,7 @@ function checkTagAlreadyExists {
     sleep 1
   done
 }
-echo "TECHIO> terminal -s 'bash -c \"bash -i 2>&1 | tee lapin; exit $?\"' -i 'cd repositories/unique-tag/; mv .gitexample .git'"
+echo "TECHIO> terminal -s 'bash -c \"bash -i 2>&1 | tee lapin; exit $?\"' -i 'cd repositories/git-course-tag-update'"
 
 checkTagAlreadyExists
 # }

@@ -19,7 +19,7 @@ function checkHistoryRebased {
     sleep 1
   done 
 }
-echo "TECHIO> terminal -i 'cd repositories/rebase-branch; mv .gitexample .git'"
+echo "TECHIO> terminal -i 'cd repositories/git-course-rebase-branch'"
 
 cd repositories/rebase-branch
 checkHistoryRebased
