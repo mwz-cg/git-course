@@ -3,7 +3,6 @@
 
 function checkTagExists {
   FINISHED=0
-  showkey -a
   while [ $FINISHED -eq 0 ]; do
     if grep "tag '.*' already exists" lapin; then
       echo "TECHIO> success true"
