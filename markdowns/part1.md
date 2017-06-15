@@ -1,5 +1,6 @@
 # Git Without Terror
 
+
 TODO: use image with man pages for git?
 TODO: set config so we can commit (global or not?)
 
@@ -23,14 +24,14 @@ The -a option creates an *annotated* tag with additional information including a
 
 @[Create a git tag]({"command":"/bin/bash /project/target/scripts/validate-tag-create.sh"})
 
-Now, assume that somehow you messed up your release, and forgot an important file. You decide to add that file, commit, and re-tag v1.0.0. Try to do this in the terminal by adding a file, committing, and tagging v1.0.0 again:
+Now, assume that somehow you messed up your release, and forgot an important file. You could decide to add that file, commit, and re-tag v1.0.0. Try to do this in the terminal by adding a file, committing, and tagging v1.0.0 again:
 
 @[Updating a git tag]({"command":"/bin/bash /project/target/scripts/validate-tag-update.sh 2>&1 | tee lapin"})
 
 What happened? Git complains that `tag 'v1.0.0' already exists`. There are several possibilities at this point:
 
-  * if you have not pushed your tag yet, you can safely re-create the tag either by removing it first or overridding it with the `-f` option,
-  * if you have already pushed your tag, your only sane option is to create a new tag such as `v1.0.1`. This is because others that have already checked out the tag will never see updates you make to that tag.
+  * if you have not pushed your tag yet on a remote repository, you can safely re-create the tag either by removing it first or overridding it with the `-f` option,
+  * if you have already pushed your tag, your only sane option is to create a new tag such as `v1.0.1`. A tag is an immutable thing, when a tag has been fetched it is never updated. If the tag has already been fetched by someone, it will never been updated (keeping the old reference on the your 'v1.0.0').
 
 TODO: how to show that?
 
@@ -38,6 +39,7 @@ TODO: how to show that?
 
 ### Rebase safely
 
+![rebase](/data/img/rebase.png)
 TODO: repo with master and new-feature
 
 ```
