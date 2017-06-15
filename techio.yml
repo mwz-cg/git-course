@@ -6,4 +6,4 @@ plan:
 projects:
   webconsole:
     root: data
-    runner: samueldebruyn/debian-git:latest
+    runner: arnaudcg/git-without-terror:latest
