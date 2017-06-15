@@ -40,8 +40,12 @@ TODO: how to show that?
 
 TODO: repo with master and new-feature
 
-checkout new-feature
-rebase master
+```
+git checkout new-feature
+git rebase master
+```
+
+@[Rebase a branch on master]({"command":"/bin/bash /project/target/scripts/validate-rebase-branch.sh"})
 
 Note: git is immutable. Even if you don't see the old commits anymore in the history with git log, all the data is still here. You can verify that by checking out a previous commit such as b5098234.
 
