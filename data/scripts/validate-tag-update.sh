@@ -1,7 +1,7 @@
 # { autofold
 #!/bin/bash
 
-function checkTagExists {
+function checkTagAlreadyExists {
   FINISHED=0
   while [ $FINISHED -eq 0 ]; do
     if grep "tag '.*' already exists" lapin; then
@@ -13,6 +13,5 @@ function checkTagExists {
 }
 echo "TECHIO> terminal -s 'bash -c \"bash -i 2>&1 | tee lapin; exit $?\"' -i 'cd repositories/unique-tag/; mv .gitexample .git'"
 
-cd repositories/unique-tag
-checkTagExists
+checkTagAlreadyExists
 # }
