@@ -4,7 +4,7 @@
 function checkTagAlreadyExists {
   FINISHED=0
   while [ $FINISHED -eq 0 ]; do
-    if grep "tag '.*' already exists" lapin; then
+    if [ -e lapin ] && grep "tag '.*' already exists" lapin; then
       echo "TECHIO> success true"
       FINISHED=1
     fi

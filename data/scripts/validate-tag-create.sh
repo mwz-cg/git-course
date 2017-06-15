@@ -9,11 +9,11 @@ function checkTagExists {
       echo "TECHIO> success true"
       FINISHED=1
     fi
-    sleep 0.1
+    sleep 1
   done 
 }
 echo "TECHIO> terminal -i 'cd repositories/git-course-tag-create'"
 
-cd repositories/unique-tag
+cd repositories/git-course-tag-create
 checkTagExists
 # }

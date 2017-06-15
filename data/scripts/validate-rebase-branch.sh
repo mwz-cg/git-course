@@ -21,6 +21,6 @@ function checkHistoryRebased {
 }
 echo "TECHIO> terminal -i 'cd repositories/git-course-rebase-branch'"
 
-cd repositories/rebase-branch
+cd repositories/git-course-rebase-branch
 checkHistoryRebased
 # }
