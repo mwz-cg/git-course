@@ -1,6 +1,6 @@
-title : File and directory management with Unix
+title : Git Without Terror (GWT)
 plan:
-  - title: File and directory management in Unix Systems
+  - title: Git Without Terror (GWT)
     statement: markdowns/part1.md
 
 projects:
